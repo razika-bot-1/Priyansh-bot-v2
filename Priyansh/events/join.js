@@ -42,7 +42,7 @@ APPROVAL ALLOW IN THIS GROUP!!!
 USE HELP TO SEE COMMAND 
 \n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}video , .video2 , .video3 (video songs)\n${global.config.PREFIX}music .song .sing (audio songs)\n${global.config.PREFIX}help2 (command list)\n${global.config.PREFIX}info 
 <<<<<------------------------------>>>>>
-AND FOR ANY REPORT OR CONTACT BOT DEVELOPE𝐫 `, attachment: fs.createReadStream(__dirname + "/cache/joinmp4/me.mp4")} ,threadID));
+AND FOR ANY REPORT OR CONTACT BOT DEVELOPE𝐫 `, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
 	}
 	else {
 		try {
