@@ -36,7 +36,7 @@ module.exports = {
     }
 
     const processingMessage = await api.sendMessage(
-      "✅ Processing your request. Please wait...",
+      "✅ 𝐑𝐮𝐤𝐨 𝐣𝐚𝐫𝐚 𝐬𝐚𝐛𝐚𝐫 𝐤𝐚𝐫𝐨 𝐧𝐚 𝐛𝐚𝐛𝐲 🥺...",
       event.threadID,
       null,
       event.messageID
@@ -86,7 +86,7 @@ module.exports = {
             });
           } else {
             reject(
-              new Error(`Failed to download file. Status code: ${response.statusCode}`)
+              new Error(`𝗦𝗼𝗿𝗿𝘆 🥺 𝗯𝗮𝗯𝘆 𝗻𝗵𝗶 𝗹𝗮 𝗽𝗮𝗶 𝗱𝗼𝗯𝗮𝗿𝗮 𝘁𝗿𝘆 𝗸𝗮𝗿𝗼 🥰. 𝗦𝗧𝗔𝗧𝗨𝗦 𝗖𝗢𝗗𝗘: ${response.statusCode}`)
             );
           }
         }).on("error", (error) => {
