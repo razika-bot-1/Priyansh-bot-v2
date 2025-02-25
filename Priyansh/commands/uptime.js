@@ -71,7 +71,7 @@ const time = process.uptime() ,
   } else {
     var id = k
   }
-  const loz = ["https://i.imgur.com/9jbBPIM.jpg","https://i.imgur.com/cPvDTd9.jpg","https://i.imgur.com/ZT8CgR1.jpg","https://i.imgur.com/WhOaTx7.jpg","https://i.imgur.com/BIcgJOA.jpg","https://i.imgur.com/EcJt1yq.jpg","https://i.imgur.com/0dtnQ2m.jpg"]
+  const loz = ["https://i.postimg.cc/cCL9v0GB/e6fdb352-9d87-4f15-8eec-14a9d5cd9fd0.jpg","https://i.postimg.cc/8kBQ9Xfk/Obito-1.jpg","https://i.postimg.cc/mgn0C0Jj/85f4046a-793f-404f-8a7c-04846a47d990.jpg","https://i.postimg.cc/cCL9v0GB/e6fdb352-9d87-4f15-8eec-14a9d5cd9fd0.jpg","https://i.imgur.com/BIcgJOA.jpg","https://i.postimg.cc/cCL9v0GB/e6fdb352-9d87-4f15-8eec-14a9d5cd9fd0.jpg","https://i.postimg.cc/8kBQ9Xfk/Obito-1.jpg"]
     const lengthchar = (await axios.get('https://raw.githubusercontent.com/mraikero-01/saikidesu_data/main/imgs_data2.json')).data
     console.log(lengthchar.length)
   const Canvas = require('canvas');
@@ -130,7 +130,7 @@ registerFont(__dirname + `/tad/CaviarDreams.ttf`, {
     const imageBuffer = canvas.toBuffer();
    fs.writeFileSync(pathImg, imageBuffer);
   return api.sendMessage({
-    body: `┃======{ 𝗨𝗣𝗧𝗜𝗠𝗘 𝗥𝗢𝗕𝗢𝗧 }======┃\n\n→ Bot worked  ${hours} hours ${minutes} minutes ${seconds} seconds \n•━━━━━━━━━━━━━━━━━━━━━━━━•\n➠ SUBSCRIBE TO MIRRYKAL YOUTUBE CHANNEL\n➠ Bo𝐭 Name: ${global.config.BOTNAME}\n➠ Bot Prefix: ${global.config.PREFIX}\n➠ Commands count: ${commands.size}\n➠ Total Users: ${global.data.allUserID.length}\n➠ Total thread: ${global.data.allThreadID.length}\n➠ CPU in use:: ${pidusage.cpu.toFixed(1)}%\n➠ RAM: ${byte2mb(pidusage.memory)}\n➠ Ping: ${Date.now() - timeStart}ms\n➠ Character ID𝐭: ${id}\n•━━━━━━━━━━━━━━━━━━━━━━━━•\n[ ${timeNow} ]`,
+    body: `┃======{ 𝗨𝗣𝗧𝗜𝗠𝗘 𝗥𝗢𝗕𝗢𝗧 }======┃\n\n→ Bot worked  ${hours} hours ${minutes} minutes ${seconds} seconds \n•━━━━━━━━━━━━━━━━━━━━━━━━•\n➠ ™𝗖𝗥𝗘𝗔𝗧𝗢𝗥▶𝄞𝗩𝗜𝗞𝗔𝗦 𝗥𝗔𝗝𝗣𝗨𝗧𝄞\n➠ Bo𝐭 Name: ${global.config.BOTNAME}\n➠ Bot Prefix: ${global.config.PREFIX}\n➠ Commands count: ${commands.size}\n➠ Total Users: ${global.data.allUserID.length}\n➠ Total thread: ${global.data.allThreadID.length}\n➠ CPU in use:: ${pidusage.cpu.toFixed(1)}%\n➠ RAM: ${byte2mb(pidusage.memory)}\n➠ Ping: ${Date.now() - timeStart}ms\n➠ Character ID𝐭: ${id}\n•━━━━━━━━━━━━━━━━━━━━━━━━•\n[ ${timeNow} ]`,
     attachment: fs.createReadStream(pathImg)
   },
     event.threadID,
