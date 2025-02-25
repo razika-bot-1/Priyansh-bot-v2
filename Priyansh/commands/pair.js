@@ -100,7 +100,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   fs.writeFileSync(pathImg, imageBuffer);
   fs.removeSync(pathAvt1);
   fs.removeSync(pathAvt2);
-  return api.sendMessage({ body: `Congratulations ${name1} successfully paired with ${name2}\nThe odds are ${tile}%`,
+  return api.sendMessage({ body: `𝗖𝗢𝗡𝗚𝗥𝗔𝗧𝗨𝗟𝗔𝗧𝗜𝗢𝗡 🎉🎊 ${name1} 𝗧𝗨 𝗠𝗘𝗥𝗜 𝗠𝗘 𝗧𝗘𝗥𝗔 𝗔𝗬𝗘 𝗛𝗔𝗬𝗘 𝗢𝗬𝗘 𝗛𝗢𝗬𝗘 🙈😽🤞 ${name2}\n𝗔𝗣 𝗗𝗢𝗡𝗢 𝗞𝗘 𝗚𝗨𝗡 ⚛️ ${tile}%`,
             mentions: [{
           tag: `${name2}`,
           id: id2
