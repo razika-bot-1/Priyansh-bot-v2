@@ -53,7 +53,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
 
     var background = [
   "https://i.postimg.cc/Z5VRbCqN/Picsart-24-07-07-08-59-35-199-1.jpg",
-  "https://i.postimg.cc/KYYTz0KJ/Picsart-24-01-18-11-46-47-596.jpg",
+  "https://i.postimg.cc/KYYTz0KJ/Picsart-24-01-18-11-46-47-596.jpg","https://i.postimg.cc/pLC9qBRp/Messenger-creation-451829614678223.jpg",
   ];
     var rd = background[Math.floor(Math.random() * background.length)];
     let getAvtmot = (
