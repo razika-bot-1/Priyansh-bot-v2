@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 fs.createReadStream(__dirname + `/`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🫅", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🦋", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = function({ api, event, client, __GLOBAL }) {
